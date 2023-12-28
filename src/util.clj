@@ -5,3 +5,8 @@
 (defn read-lines
   [file]
   (str/split-lines (slurp file)))
+
+
+(defn parse-int
+  [s]
+  (Integer/parseInt s))
